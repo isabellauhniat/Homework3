@@ -1,0 +1,133 @@
+/* Body */
+body {
+    background-color: rgba(135, 217, 250, 0.266); 
+    color: #333;
+}
+
+/* Header */
+h1 {
+    color: #2c2c91;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+/* Subheader for Page 2 */
+h2 {
+    color: #2c2c91;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: bold; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+/* Subheader */
+h3 {
+    text-align: center;
+    color: #242d64;
+    font-size: 18px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0b097b; 
+    padding: 10px 0;
+}
+
+nav ul {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Intro & Main Content */
+#intro {
+    font-family: 'Lucida Handwriter', cursive;
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+    color: #2c2e91; 
+    margin: 20px
+}
+#main {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 2;
+    background-color: rgba(255, 255, 255, 0.8); 
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Images */
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    justify-content: center;
+}
+.container img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 5px solid #2c2e91; 
+}
+.list {
+    line-height: 2;
+    font-size: 20px;
+    font-family: 'Georgia', serif;
+    color: #444;
+}
+img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 5px solid #2c2e91; 
+}
+
+/* Contact Info */
+#contact {
+    font-size: 20px;
+    margin-top: 40px;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid #2c2e91;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #2c5491;
+    font-weight: bold;   
+}
