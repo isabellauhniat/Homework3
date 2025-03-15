@@ -1,2 +1,2 @@
 # Homework3
-HW3 Personal Website and Solutions
+HW3 Personal Website
